@@ -1,0 +1,16 @@
+.field {
+    transition: all ease-in-out .8;
+}
+
+.field:hover {
+    transform: scale(1.03)
+}
+
+.field:hover .options-field {
+    opacity: 1;
+}
+
+.options-field {
+    transition: all ease-in-out .8;
+    opacity: 0;
+}

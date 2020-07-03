@@ -1,0 +1,29 @@
+{
+  "name": "formbuilder",
+  "version": "1.0.0",
+  "description": "Form builder",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Form"
+  ],
+  "author": "Felix Daniel Licien Estevez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.3.3",
+    "@material-ui/icons": "^4.2.1",
+    "@types/react-beautiful-dnd": "^11.0.3",
+    "axios": "^0.19.0",
+    "react-beautiful-dnd": "^11.0.5",
+    "react-toastify": "^5.3.2"
+  }
+}

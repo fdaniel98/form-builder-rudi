@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "outDir": "./lib",
+        "target": "es2017",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "removeComments": true,
+        "declaration": false,
+        "sourceMap": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "jsx": "react",
+        "typeRoots": [
+            "index.d.ts",
+            "node_modules/@types"
+        ]
+    },
+    "include": [
+        "./src/**/*.tsx",
+        "./src/**/*.css",
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
