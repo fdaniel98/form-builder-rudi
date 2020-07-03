@@ -85,7 +85,7 @@ export default class FieldSelector extends React.Component<FieldSelectorProps> {
                                     variant="contained"
                                     style={{ backgroundColor: '#0d38b1', color: 'white' }}
                                     fullWidth
-                                    onClick={this.handleSave}
+                                    /* onClick={this.handleSave} */
                                     disabled={this.isDisabled()}
                                 >
                                     Guardar formulario
